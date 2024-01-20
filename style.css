@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    
+    display: flex;
+    margin:auto;
+    margin-top: 10px ;
+    height: 280px;
+    width: 90%;
+}
+.about-user{
+    
+    display: flex;
+    margin:auto;
+    margin-top: 10px ;
+    height: 280px;
+    width: 90%;
+
+}
+
+.profile-photo {
+    width: 20%;
+    height: 84%;
+    background-color: rgb(182, 181, 181);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.profile{
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.location{
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.location img{
+    height: 50px;
+    width: 50px;
+}
+.github-link{
+    margin-left:70px;    
+    display: flex;
+    align-items: center;
+}
+.github-link span{
+    margin-left: 5px;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 70px;
+
+}
+
+.button input{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.btn{
+    color: rgb(43, 76, 176);
+    border: 2px solid rgb(43, 76, 176);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+.repo-card{
+    
+    margin:auto;
+    margin-left: 10px;
+    height: 38vh;
+    width: 100%;
+    display: flex;
+}
+.repo{
+    height: 70%;
+    width: 40%;
+    margin: auto;
+    margin-top: 55px;
+    border: 2px solid rgb(43, 76, 176);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: rgb(43, 76, 176);
+}
+.desc{
+    margin-top: 15px;
+    font-weight: 700 ;
+    font-size: 17px;
+}
+.repo-content{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+.topics{
+    display: flex;
+    margin-top: 15px;
+}
+
+.topic{
+    background-color: rgb(43, 76, 176);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
